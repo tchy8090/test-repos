@@ -1,0 +1,41 @@
+.parent{
+
+	background-color: #8a8780;
+	border:2px solid #575143;
+	width: 600px;
+	margin: 50px;
+	padding: 50px;
+}
+
+
+.child{
+
+	background-color: #6d9c65;
+	border:2px solid #6c7880;
+	width: 400px;
+	margin: 50px;
+	padding: 50px;
+	position: relative;
+
+}
+
+
+.box{
+
+	background-color: #e0b992;
+	border:2px solid #d4bd63;
+	width: 200px;
+	margin: 50px;
+	padding: 50px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+img{
+	float: left;
+}
+
+
